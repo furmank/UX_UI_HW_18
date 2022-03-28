@@ -8,20 +8,17 @@
     height: 100px;
     left: 0px;
     top: 0px;
-
 }
-
 .inline-block {
     display: flex;
     display: inline-block;
 }
-
-/*
-.inline-block {
-    display: inline-block;
-    vertical-align: bottom;    
-}
-*/
+    /*
+    .inline-block {
+        display: inline-block;
+        vertical-align: bottom;    
+    }
+    */
 .logo {
     width: 23%;
     padding: 1%;
@@ -39,7 +36,6 @@ ul {
     width: 50%;
     margin-left: auto;
 }
-
 li {
     font-family: 'Source Sans Pro';
     font-style: normal;
@@ -54,17 +50,18 @@ li {
 
     justify-content: flex-end;
     display: flex;
-
 }
 
+
+
 /* Hero CSS*/
-/*.hero {
-    display: grid;
-    grid-template-columns: 75% 25%;
-    grid-template-rows: 1fr;
-    grid-area: 
-    "heroimg herotext";
-}  */
+    /*.hero {
+        display: grid;
+        grid-template-columns: 75% 25%;
+        grid-template-rows: 1fr;
+        grid-area: 
+        "heroimg herotext";
+    }  */
 .heroimg {
     /* grid-area: heroimg;*/
     height: auto;
@@ -73,10 +70,9 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
 }
-/* .herotext {
-    grid-area: herotext;
-}*/
-
+    /* .herotext {
+        grid-area: herotext;
+    }*/
 .content {
     width: 391px;
     margin: 0 auto;
@@ -86,14 +82,18 @@ li {
     width: auto; 
 }
 
-/*Footer Code*/
+/*About Me Code*/
 
+/*My Skill Code*/
+
+/*My Work Code*/
+
+/*Footer Code*/
 footer {
     background-color: #21140D;
    /* display: flex; */
     margin: 0px;
 }
-
 #footerimg {
     height: 574.34px;
 }
@@ -104,7 +104,6 @@ footer {
     justify-content: flex-end; */
     text-align: center;
 }
-
 #lc {
     font-family: 'Lora';
     font-style: normal;
@@ -113,7 +112,6 @@ footer {
     line-height: 24px;
     color: #FFFFFF;
 }
-
 #jt {
     font-family: 'Source Sans Pro';
     font-style: normal;
@@ -121,7 +119,6 @@ footer {
     font-size: 20px;
     color: #FFFFFF;
 }
-
 #email {
     font-family: 'Source Sans Pro';
     font-style: normal;
@@ -130,18 +127,8 @@ footer {
     line-height: 30px;
     color: #FFFFFF;
 }
-
 .footertext {
     display: inline-block;
     vertical-align: center;
     padding: 0px;
 }
-
-
-
-
-
-
-
-
-
