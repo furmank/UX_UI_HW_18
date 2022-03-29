@@ -56,25 +56,27 @@
 </section>
 <!-- my skills HTML-->
 <section class="mySkills">
-    <h2>What I do</h2>
-    <img src="/Images/newbody_img.png" alt="body_img">  
+    <img src="/Images/newbody_img.png" alt="body_img"> 
+  <div class="skillsbackground">    
+    <h2>What I do</h2> 
     <div id="pink_hori_shape" class="flexContainer">
-        <div class="skills_card">
-            <img src="pending" alt="frontEndIcon">
-            <h3>Front-End Development</h3>
-            <h4>Would you like to bring your site to life? Using HTML, CSS, and JavaScript,<br>I can help. </h4>
-        </div>
-        <div class="skills_card">
-            <img src="pending" alt="siteDesignIcon">
-            <h3>Site Design</h3>
-            <h4>Would you like to design a fun, beautiful, and user friendly site [much like this one]?<br>I can help with that too. </h4>
-        </div>
-        <div class="skills_card">
-            <img src="pending" alt="newResearchIcon">
+        <div class="skillsCard" id="usercard">
+            <img id="icon" src="/Images/Icon-user.png" alt="newResearchIcon">
             <h3>User Research</h3>
             <h4>Want to to understand your user? Emphasize with their pain points and solve their problems?<br>I can do that.</h4>
         </div>
+        <div class="skillsCard" id="codecard">
+            <img id="icon" src="/Images/Icon-code.png" alt="frontEndIcon">
+            <h3>Front-End Development</h3>
+            <h4>Would you like to bring your site to life? Using HTML, CSS, and JavaScript,<br>I can help. </h4>
+        </div>
+        <div class="skillsCard" id="designcard">
+            <img id="icon" src="/Images/Icon-design.png" alt="siteDesignIcon">
+            <h3>Site Design</h3>
+            <h4>Would you like to design a fun, beautiful, and user friendly site [much like this one]?<br>I can help with that too. </h4>
+        </div>
     </div> 
+  </div>
 </section>
 
 <!-- my work HTML-->
@@ -107,7 +109,7 @@
     <div id="pink_vert_shape">
         <img src="/Images/bottom_img.png" alt="bottom_img">
     </div>
-<footer class="heroimg">
+<section class="footer">
     <img id="footerimg" src="/Images/footer_img.png" alt="footer_img">
     <h1 class="footertext" id="lc">Let's Connect</h1>
     <h4 class="footertext" id="jt">I am looking to join a team focused on improving the lives of the people around them.</h4>
@@ -118,7 +120,7 @@
         <a href="#"><img src="/Images/link_img.png" alt="linkdin_logo"></a>
         <a href="#"><img src="/Images/gh_img.png" alt="github_logo"></a>
     </div>
-</footer>
+</section>
 <!--end-->
 </body>
 </html>
